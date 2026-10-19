@@ -1,0 +1,36 @@
+# CodeIgniter log files
+/application/logs/*
+!/application/logs/.gitkeep
+!/application/logs/index.html
+
+# CodeIgniter session and cache files
+/application/cache/*
+!/application/cache/.gitkeep
+!/application/cache/index.html
+
+# Local environment & sensitive configuration
+# (Jika ingin database credentials tidak ter-push ke GitHub, un-comment baris di bawah:)
+# /application/config/database.php
+
+# Temporary scratch scripts
+check_users.php
+insert_data.php
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
